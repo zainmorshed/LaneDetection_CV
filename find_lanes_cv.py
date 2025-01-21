@@ -62,7 +62,6 @@ video_path = '/Users/zainmorshed/Downloads/test2.mp4'
 if not os.path.exists(video_path):
     print(f"Error: Video file not found at {video_path}")
 else:
-    # Read video
     cap = cv2.VideoCapture(video_path)
 
     while cap.isOpened():
